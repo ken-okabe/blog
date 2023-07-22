@@ -1,6 +1,11 @@
 # How to setup multiple dotnet versions
 
 ```
+// if exists, remove
+sudo rm -r /usr/share/dotnet/
+
+@Home
+wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 
 // multiple versions
 sh ./dotnet-install.sh -v 7.0.306
@@ -34,4 +39,7 @@ dotnet new console --language F#
 code-insiders --profile fsharp ./
 
 the ionide configuration for dotnet root should be blank
+
+
+
 ```
