@@ -15,6 +15,8 @@ sh ./dotnet-install.sh --channel 8.0.1xx --quality preview;
 // make `donet` usable from anywhere 
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+// add these to `.zshrc` etc.
+
 
 // use dotnet commands
 dotnet --list-sdks
